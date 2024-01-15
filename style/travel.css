@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+/* shared style  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+
+/* navbar style start */
+header{
+    width: 73.2rem;
+    margin: 50px auto;
+}
+.unique{
+     
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.unique-name h1{
+    color: #131318;
+font-size: 2.25rem;
+font-weight: 800;
+}
+#travel{
+    color: #FF5400;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.nav-bar ul a{
+    color: #424247;
+text-decoration: none;
+}
+#home{
+    color: #FF5400;
+    font-size: 1.13rem;
+    font-weight: 700;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 3rem;
+    padding: 10px 0;
+}
+
+.nav-bar ul li{
+    color: #424247;
+text-align: center;
+font-size: 1.13rem;
+font-weight: 700;
+}
+
+/* navbar end  */
+
+/* Explore travel style start  */
+.explore-travel{
+    border-radius: 1rem;
+background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+background-repeat: no-repeat;
+width: 73.2rem;
+height: 32rem;
+
+}
+.explore-title{
+    text-align: center;
+    padding-top: 100px;
+
+}
+.explore-title h1{
+    color: #FFF;
+font-size: 4rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.explore-title p{
+    color: #FFF;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin: 30px 0;
+}
+.input{
+    display: flex;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    margin: 0 150px;
+    padding: 10px;
+   
+}
+.input input{
+    border-radius: 0.5rem;
+background: #FFF;
+border: none;
+margin-right: 1.25rem;
+padding: 1.125rem;
+}
+.primary-btn{
+    width: 11.13rem;
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 18px;
+border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive */
+@media screen and (max-width:600px) {
+    nav,.nav-bar ul,.input{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .explore-travel{
+        width: 335px;
+        height: 483px;
+        /* width: 100%; */
+        /* height: 100%; */
+        border-radius: 16px;
+        padding: 20px;
+        /* align-items: center; */
+        margin: 0 auto;
+
+    }
+    .explore-title{
+        padding: 10px 0;
+    }
+    .explore-title h1{
+        font-size: 2rem;
+    }
+    .explore-title p{
+        margin: 5px 0;
+    }
+    .input{
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .input input{
+        width: 15rem;
+
+    }
+    .primary-btn{
+        width: 17rem;
+    }
+}

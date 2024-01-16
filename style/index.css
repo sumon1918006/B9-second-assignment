@@ -500,4 +500,12 @@ footer {
   footer {
     width: 90%;
   }
+  .form-section{
+    margin-left: -60px;
+    
+  }
+  .img-section{
+    margin-left: -60px;
+    
+  }
 }

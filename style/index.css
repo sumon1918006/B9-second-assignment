@@ -23,7 +23,7 @@ p {
   line-height: 26px;
 }
 
-/* navbar style start */
+/*  navbar & header style start */
 header {
   width: 73.2rem;
   margin: 50px auto;
@@ -165,6 +165,10 @@ main {
   margin-bottom: 2rem;
 }
 
+/* our popular tour end  */
+
+/* Choose Your Destination start*/
+
 .choose-tour {
   margin-top: 3rem;
   text-align: center;
@@ -172,7 +176,6 @@ main {
 .choose-tour > p {
   margin: 2rem 0;
 }
-/* Choose Your Destination start*/
 .row-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -403,49 +406,42 @@ footer {
     width: 100%;
     margin-left: 10px;
   }
-  /* .nav-bar{
+  /* nav style  */
+  .logo img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+  .unique-name h1 {
+    font-size: 21.543px;
+  }
+  .nav-bar {
     display: none;
-
-  } */
-  /* .menubar{
+  }
+  .menubar {
     display: block;
-  } */
-
-  nav,
-  .nav-bar ul,
-  .input,
-  .popular-tour,
-  .card-row-1,
-  .card-row-2 {
-    /* margin-top: 50px; */
-    flex-direction: column;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .menubar {
+    margin-top: 5px;
   }
   .explore-travel {
     background-repeat: repeat;
     background-size: cover;
-    /* width: 335px; */
     margin-left: 10px;
     width: 98%;
     height: 32rem;
-    /* height: 100%; */
     border-radius: 16px;
     padding: 20px;
+    margin-top: -30px;
   }
-
-  .tour-content h1 {
-    font-size: 20px;
+  .primary-btn {
+    width: 17rem;
   }
-  .tour-content p {
-    margin: 0;
-  }
-
-  .card-container {
-    width: 100%;
-  }
-  /* .form-section{
-    margin-left: 4rem;
-  } */
-
   .explore-title {
     padding: 10px 0;
   }
@@ -464,26 +460,64 @@ footer {
   .input input {
     width: 15rem;
   }
-  .primary-btn {
-    width: 17rem;
+
+  /* nav style end  */
+
+  .nav-bar ul,
+  .input,
+  .popular-tour,
+  .card-row-1,
+  .card-row-2 {
+    flex-direction: column;
   }
 
+  /* popular tour start */
   .popular-tour {
-    width: 40%;
-    margin: 0 auto;
+    margin-left: 10px;
+  }
+  .tour-content {
+    width: 335px;
+  }
+  .tour-content h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .tour-content p {
+    margin: 0;
   }
 
-  .row-1,
-  .row-2,
-  .row-3,
-  .newsletter {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
+  .tour-content .primary-btn {
+    margin: 30px 0;
   }
-  .newsletter {
-    width: 60%;
-    margin: 1rem auto;
+
+  .tour-img img {
+    width: 335px;
+    height: 342px;
   }
+  /* popular tour end */
+
+  /* our service start  */
+  .easy-step h1 {
+    font-size: 21px;
+  }
+  .three-step h6 {
+    font-size: 16px;
+  }
+  .easy-step p {
+    font-size: 12px;
+  }
+  /* our service end  */
+  /* Choose Your Destination start  */
+  .choose-tour h1 {
+    font-size: 21px;
+  }
+  .choose-tour p {
+    font-size: 12px;
+    margin: 10px 0;
+    margin-left: 10px;
+  }
+
   .chose-img img {
     width: 100%;
   }
@@ -491,6 +525,94 @@ footer {
     margin: 0 auto;
     margin-left: 10px;
   }
+  .row-1,
+  .row-2,
+  .row-3,
+  .newsletter {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  /* Choose Your Destination end  */
+
+  /* Why Choose Us start */
+  .why-chose h1 {
+    font-size: 21px;
+    margin-top: 10px;
+  }
+  .why-chose p {
+    font-size: 12px;
+  }
+  .card-container {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .card-style {
+    width: 335px;
+    height: 289px;
+    padding: 10px;
+  }
+
+  /* Why Choose Us end */
+
+  /* newsletter start  */
+
+  /* .newsletter {
+  width: 60%;
+  margin: 1rem auto;
+} */
+
+  .newsletter .form-section h1 {
+    font-size: 21px;
+    margin: 0;
+  }
+  .newsletter .form-section p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .newsletter .form-section {
+    width: 330px;
+    height: 380px;
+    padding: 20px;
+    margin-left: 10px;
+  }
+  .blank-1 {
+    margin: 20px 0;
+  }
+  .newsletter .form-section input,
+  #sub {
+    width: 288px;
+    height: 52px;
+  }
+
+  .img-section img {
+    width: 335px;
+    height: 300px;
+    margin-left: 10px;
+  }
+  .img-section {
+    position: relative;
+  }
+  .save-up {
+    width: 200.023px;
+    height: 70px;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+    bottom: 170px;
+  }
+
+  #save h2 {
+    font-size: 14px;
+  }
+
+  /* newsletter end  */
+
+  main {
+    margin-bottom: 0;
+  }
+
   .img-container-tour {
     gap: 1rem;
   }
@@ -498,14 +620,7 @@ footer {
     margin: 0 auto;
   }
   footer {
+    margin-top: 0;
     width: 90%;
-  }
-  .form-section{
-    margin-left: -60px;
-    
-  }
-  .img-section{
-    margin-left: -60px;
-    
   }
 }

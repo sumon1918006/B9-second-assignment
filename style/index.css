@@ -47,6 +47,9 @@ nav {
   justify-content: space-between;
   margin-bottom: 3rem;
 }
+.menubar{
+  display: none;
+}
 .nav-bar ul a {
   color: #424247;
   text-decoration: none;
@@ -338,14 +341,6 @@ right: -180px;
 
 
 
-
-
-
-
-
-
-
-
 /* footer style start  */
 footer{
     width: 100%;
@@ -380,36 +375,82 @@ margin-top: 3.5rem;
 }
 /* footer style end  */
 
+/* extra  */
+.easy-step{
+  text-align: center;
+  margin: 2rem auto;
+  
+
+}
+.easy-step img{
+  margin: 20px 0;
+  width: 47px;
+  height: 48px;
+}
+.easy-step h6{
+               font-size: 25px;
+}
+
+
+
+
+
 
 
 
 /* mobile responsive */
 @media screen and (max-width: 600px) {
+  header,main{
+    width: 88vw;
+    margin: 0;
+  }
+  /* .nav-bar{
+    display: none;
+
+  } */
+  /* .menubar{
+    display: block;
+  } */
+
   nav,
   .nav-bar ul,
   .input,
   .popular-tour,
-  .card-row-1
+  .card-row-1,
+  .card-row-2
    {
     /* margin-top: 50px; */
     flex-direction: column;
   }
   .explore-travel {
-    width: 335px;
-    height: 483px;
-    /* width: 100%; */
+    background-repeat: repeat;
+    background-size: cover;
+    /* width: 335px; */
+    margin-left: 10px;
+    width: 98%;
+    height:32rem;
     /* height: 100%; */
     border-radius: 16px;
     padding: 20px;
-    /* align-items: center; */
-    margin: 0 auto;
+    
   }
+ 
+  
+  .tour-content h1{
+    font-size: 20px;
+  }
+  .tour-content p{
+    margin: 0;
+  }
+ 
+  
   .card-container{
     width: 100%;
   }
-  .form-section{
+  /* .form-section{
     margin-left: 4rem;
-  }
+  } */
+
   .explore-title {
     padding: 10px 0;
   }
@@ -422,8 +463,8 @@ margin-top: 3.5rem;
   .input {
     align-items: center;
     gap: 20px;
-    padding: 0;
-    margin-top: 10px;
+    padding: 10px;
+    margin: 10px;
   }
   .input input {
     width: 15rem;
@@ -452,7 +493,7 @@ margin-top: 3.5rem;
   }
   .chose-img{
     margin: 0 auto;
-    width: 140vh;
+    width: 50%;
   }
   .img-container-tour{
     gap: 1rem;
@@ -461,7 +502,7 @@ margin-top: 3.5rem;
     margin: 0 auto;
   }
   footer{
-    width: 200vh;
+    width:90%;
      
   }
   

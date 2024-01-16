@@ -382,6 +382,9 @@ margin-top: 3.5rem;
   
 
 }
+.easy-step h1{
+          margin-bottom: 20px;
+}
 .easy-step img{
   margin: 20px 0;
   width: 47px;
@@ -389,6 +392,21 @@ margin-top: 3.5rem;
 }
 .easy-step h6{
                font-size: 25px;
+               margin-bottom: 10px;
+}
+.three-step{
+  background-color:#BEBCC3;
+  border-radius: 10px;
+  width: 33%;
+  margin: 0 auto;
+  padding: 1rem;
+  
+}
+.three-step:hover{
+  transform: scale(1.1);
+}
+.two{
+  margin: 2rem auto;
 }
 
 
@@ -403,6 +421,11 @@ margin-top: 3.5rem;
   header,main{
     width: 88vw;
     margin: 0;
+  }
+
+  .three-step{
+    width: 100%;
+    margin-left: 10px;
   }
   /* .nav-bar{
     display: none;

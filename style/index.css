@@ -256,6 +256,85 @@ font-weight: 800;
 
 /* why choose us end  */
 
+/* Newsletter style start  */
+.newsletter{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  margin: 3rem auto;
+  
+}
+
+.newsletter .form-section{
+  width: 30rem;
+height: 23rem;
+border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 2rem;
+}
+.newsletter .form-section h1{
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.blank-1{
+  width: 24.6rem;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+margin: 2rem 0;
+
+}
+.form-section input{
+  width: 24.6rem;
+height: 2rem;
+border-radius: .5rem;
+background: rgba(19, 19, 24, 0.05);
+margin-bottom: 1rem;
+border: none;
+padding: 1rem
+
+
+}
+.form-section button{
+  
+  
+  width: 24.6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+margin-left: 1rem;
+padding: 2rem ;
+
+}
+
+
+.img-section{
+  
+  width: 30rem;
+height: 26.4rem;
+position: relative;
+}
+
+.save-up{
+  text-align: center;
+  
+  width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+color: #FFF;
+position: absolute;
+bottom: 50px;
+right: -180px;
+}
+#save{
+  padding: 2rem;
+}
 
 
 
@@ -325,6 +404,12 @@ margin-top: 3.5rem;
     /* align-items: center; */
     margin: 0 auto;
   }
+  .card-container{
+    width: 100%;
+  }
+  .form-section{
+    margin-left: 4rem;
+  }
   .explore-title {
     padding: 10px 0;
   }
@@ -354,9 +439,13 @@ margin-top: 3.5rem;
 
   .row-1,
   .row-2,
-  .row-3 {
+  .row-3,.newsletter {
     grid-template-columns: repeat(1,1fr);
     gap: 1rem;
+  }
+  .newsletter{
+    width: 60%;
+    margin: 1rem auto;
   }
   .chose-img img{
     width: 100%;
@@ -372,7 +461,7 @@ margin-top: 3.5rem;
     margin: 0 auto;
   }
   footer{
-    width: 300vh;
+    width: 240vh;
      
   }
   

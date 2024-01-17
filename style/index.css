@@ -615,12 +615,12 @@ footer {
   }
   footer {
     /* margin-top: 0; */
-    width: 375px;
+    width: 100%;
     height: 309px;
     margin-bottom: 150px;
   }
   .blank {
-    margin: 0;
+    margin: 0 auto;
     width: 335px;
     height: 1px;
   }
